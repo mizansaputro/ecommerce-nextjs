@@ -1,0 +1,24 @@
+.outer{
+    margin-top: 162px;
+    width: 100%;
+}
+.container{
+    padding-left: 102px;
+    padding-right: 102px;
+    display: flex;
+}
+.carousel{
+    width: 500px;
+}
+.form{
+    margin-left: 50px;
+    margin-top: -70px;
+    width: 550px;
+    height: 776px;
+    background: #F8F7F5;
+}
+.recommendationContainer{
+    padding-left: 102px;
+    padding-right: 102px;
+    margin-top: 74px;
+}

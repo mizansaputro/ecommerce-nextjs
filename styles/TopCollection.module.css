@@ -1,0 +1,107 @@
+.textHeader{
+    margin-top: 100px;
+    text-align: center;
+}
+.textTitle{
+    height: 54px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.textBody{
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.text {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    padding-left: 80px;
+    padding-top: 8px;
+    background-color: darkgray;
+    color: white;
+    font-size: 16px;
+    margin-top: -100px;
+    display: flex;
+}
+.container{
+    margin-top: 56px;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+}
+.containerCarousel{
+    width: 93%;
+    margin-left: 50px;
+}
+.itemContainerBtn{
+    border: none;
+    background-color: transparent;
+}
+.imgContainer{
+    padding-left: 31px;
+    padding-right: 31px;
+}
+.imageComp{
+    width: 230px;
+    height: 230px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.captionItem{
+    text-align: center;
+    margin-left: 60px;
+    font-size: 18px;
+    width: 200px;
+    height: 200px;
+}
+.priceItem{
+    color: #D8A338;
+    font-size: 16px;
+}
+.itemContainerBtn:hover{
+    cursor: pointer;
+}
+.containerCarousel button:hover .imageComp{
+    opacity: 0.3;
+}
+.containerCarousel button:hover .middle{
+    opacity: 1;
+}
+.line{
+    color: #CCCCCC;
+    text-decoration: line-through;
+}
+.hide{
+    display: none;
+}
+.show{
+    position: absolute;
+    z-index: 7;
+    width: 60px;
+    height: 24px;
+    background: #D8A338;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+.textSale{
+    margin-top: 5px;
+}

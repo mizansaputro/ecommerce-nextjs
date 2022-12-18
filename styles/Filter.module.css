@@ -1,0 +1,65 @@
+.header{
+    width: 150px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+.marginTopHeader{
+    margin-top: 40px;
+}
+.body{
+    width: 140px;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.body:hover{
+    background-color: #D8A338;
+    color: white;
+    cursor: pointer;
+}
+.choosen{
+    background-color: darkgray;
+    color: white;
+}
+.checkBox{
+    display: flex;
+}
+.checkboxLabel{
+    width: fit-content;
+}
+.checkboxText{
+    margin-left: 16px;
+}
+.checkboxText:hover{
+    background-color: transparent;
+    color: #333333;
+}
+.gridContainer{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    margin-top: 24px;
+}
+.colorBtn{
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+.colorBtn:hover{
+    cursor: pointer;
+    background-color: #D8A338;
+    color: white;
+}
+.activeColorBtn{
+    background-color: gray;
+    color: white;
+}

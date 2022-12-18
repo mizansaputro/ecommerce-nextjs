@@ -1,0 +1,143 @@
+.container{
+    margin-top: 113px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.category{
+    width: 141px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+}
+.name{
+    width: 522px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.price{
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+.discPrice{
+    text-decoration: line-through;
+    color: #CCCCCC;
+}
+.noDisplay{
+    display: none;
+}
+.desc{
+    width: 490px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.form{
+    margin-top: 40px;
+}
+.formContainer{
+    display: flex;
+    margin-top: 16px;
+}
+.info{
+    width: 120px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.formInput{
+    width: 70%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E3E5E6;
+    border-radius: 4px;
+    margin-left: 30px;
+}
+.quantity{
+    width: 105px;
+    
+}
+.btnQtyContainer{
+    position: absolute;
+    margin-left: 245px;
+    margin-top: 7px;
+}
+.top{
+    margin-top: -3px;
+}
+.bot{
+    margin-top: -16px;
+}
+.top:hover .arrow, .bot:hover .arrow{
+    cursor: pointer;
+    border-width: 0 2px 2px 0;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.addToCartBtn{
+    width: 211px;
+    height: 40px;
+    background: #D8A338;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 15px;
+}
+.addToCartBtn:hover{
+    cursor: pointer;
+}
+.noActiveBtn{
+    background: darkgray;
+}
+.hide{
+    display: none;
+    position: absolute;
+}
+.show{
+    width: 550px;
+    height: 35px;
+    margin-top: 20px;
+    padding-top: 8px;
+    margin-left: -250px;
+    position: fixed;
+    background: #E8F3DD;
+    border-radius: 4px;
+    color: #67AD1C;
+    text-align: center;
+    
+}

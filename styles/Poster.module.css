@@ -1,0 +1,39 @@
+.container{
+    margin-top: 90px;
+}
+.gridContainer{
+    display: flex;
+    padding-left: 72px;
+    padding-right: 72px;
+    gap: 15px;
+}
+.bgContainer{
+    width: 422px;
+    height: 292px;
+    text-align: center;
+}
+.title{
+    height: 54px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 119px;
+}
+.men{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://cdn.shopify.com/s/files/1/0162/2116/articles/Untitled_design_17_1200x1200.jpg?v=1514880088');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.women{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2v9Ao9IFq7VO1vozXgPP_JzlleVCF1Umhtw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kids{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://img.freepik.com/free-photo/full-length-portrait-cute-little-kid-girl-stylish-jeans-clothes-smiling-standing-white-kids-fashion-concept_155003-20300.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
