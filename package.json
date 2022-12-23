@@ -6,11 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --component"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.1",
+    "cypress-axe": "^1.2.0",
     "lodash": "^4.17.21",
     "next": "13.0.6",
     "react": "18.2.0",
@@ -20,6 +23,7 @@
     "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
+    "cypress": "^12.2.0",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6"
   }

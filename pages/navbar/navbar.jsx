@@ -164,22 +164,22 @@ const Navbar = () => {
             </div>
             <div className={isCartActive? `${styleNav.container} ${styleNav.flexContainer} ${styleNav.darkNav}`:`${styleNav.container} ${styleNav.flexContainer}`}>
                 <div className={`${styleNav.flexContainer}`}>
-                    <div className={`${styleNav.storeName}`}>fashionista</div>
+                    <div className={`${styleNav.storeName}`} data-cy="storeName">fashionista</div>
                     <div className={`${styleNav.dot}`}>.</div>        
                 </div>
                 <div className={`${styleNav.flexContainer} ${styleNav.menuLink}`}>
-                    <Link href={"/"} style={{textDecoration:'none', color:'#333333'}}><div className={`${styleNav.menuItem}`}>HOME</div></Link>
-                    <Link href={"/shop/all"} style={{textDecoration:'none', color:'#333333'}} onClick={handlerClickPage}><div className={`${styleNav.menuItem}`}>SHOP</div></Link>
-                    <Link href={"/shop/all"} style={{textDecoration:'none', color:'#333333'}} onClick={handlerClickPage}><div className={`${styleNav.menuItem}`}>BEST SELLERS</div></Link>
-                    <div className={`${styleNav.menuItem}`} onClick={handlerCollectionClick}>COLLECTION</div>
-                    <div className={`${styleNav.menuItem}`}>CONTACT US</div>
+                    <Link href={"/"} style={{textDecoration:'none', color:'#333333'}}><div className={`${styleNav.menuItem}`} data-cy="homeText">HOME</div></Link>
+                    <Link href={"/shop/all"} style={{textDecoration:'none', color:'#333333'}} onClick={handlerClickPage}><div className={`${styleNav.menuItem}`} data-cy="shopText">SHOP</div></Link>
+                    <Link href={"/shop/all"} style={{textDecoration:'none', color:'#333333'}} onClick={handlerClickPage}><div className={`${styleNav.menuItem}`} data-cy="bestSellersText">BEST SELLERS</div></Link>
+                    <div className={`${styleNav.menuItem}`} onClick={handlerCollectionClick} data-cy="collectionText">COLLECTION</div>
+                    <div className={`${styleNav.menuItem}`} data-cy="contactUsText">CONTACT US</div>
                 </div>
                 <div className={`${styleNav.flexContainer} ${styleNav.icon}`}>
                     <div className={styleNav.cartContainerImg}>
                         <div className={quantity===0? styleNav.hide:styleNav.popup}>{quantity}</div>
-                        <img className={`${styleNav.iconImg}`} src={"/cart.png"}  onClick={handlerClickCart}/>
+                        <img className={`${styleNav.iconImg}`} src={"/cart.png"}  onClick={handlerClickCart} data-cy="cartImg"/>
                     </div>
-                    <img className={`${styleNav.iconImg}`} src={"/search.png"} onClick={handlerClickSearch}/>
+                    <img className={`${styleNav.iconImg}`} src={"/search.png"} onClick={handlerClickSearch} data-cy="searchImg"/>
                 </div>
             </div>
             <div className={isActiveCollection? styleNav.show:styleNav.hide}>
